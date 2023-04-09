@@ -1,0 +1,131 @@
+SB ov 1536 ev 2 rid General-0-20230409-18:43:29-4212
+
+E # 0 t 0 m 1 ce -1 msg -1
+MC id 1 c omnetpp::cModule t DistributedProject n DistributedProject cm 1
+MDC id 1 d bgb=429,164
+MC id 2 c MapperNode t MapperNode pid 1 n Map[0]
+GC m 2 g 0 n in o 0
+GC m 2 g 3 n out o 1
+MDC id 2 d p=51,76
+MC id 3 c MapperNode t MapperNode pid 1 n Map[1]
+GC m 3 g 0 n in o 0
+GC m 3 g 3 n out o 1
+MDC id 3 d p=51,76
+MC id 4 c MapperNode t MapperNode pid 1 n Map[2]
+GC m 4 g 0 n in o 0
+GC m 4 g 3 n out o 1
+MDC id 4 d p=51,76
+MC id 5 c MapperNode t MapperNode pid 1 n Map[3]
+GC m 5 g 0 n in o 0
+GC m 5 g 3 n out o 1
+MDC id 5 d p=51,76
+MC id 6 c MapperNode t MapperNode pid 1 n Map[4]
+GC m 6 g 0 n in o 0
+GC m 6 g 3 n out o 1
+MDC id 6 d p=51,76
+MC id 7 c MapperNode t MapperNode pid 1 n Map[5]
+GC m 7 g 0 n in o 0
+GC m 7 g 3 n out o 1
+MDC id 7 d p=51,76
+MC id 8 c MapperNode t MapperNode pid 1 n Map[6]
+GC m 8 g 0 n in o 0
+GC m 8 g 3 n out o 1
+MDC id 8 d p=51,76
+MC id 9 c MapperNode t MapperNode pid 1 n Map[7]
+GC m 9 g 0 n in o 0
+GC m 9 g 3 n out o 1
+MDC id 9 d p=51,76
+MC id 10 c MapperNode t MapperNode pid 1 n Map[8]
+GC m 10 g 0 n in o 0
+GC m 10 g 3 n out o 1
+MDC id 10 d p=51,76
+MC id 11 c MapperNode t MapperNode pid 1 n Map[9]
+GC m 11 g 0 n in o 0
+GC m 11 g 3 n out o 1
+MDC id 11 d p=51,76
+MC id 12 c Coordinator t Coordinator pid 1 n Cor
+MDC id 12 d p=244,101
+GC m 12 g 2621440 n out i 0 o 1
+CC sm 12 sg 2621440 dm 2 dg 0
+CDC sm 12 sg 2621440 d ""
+GC m 12 g 1048576 n in i 0 o 0
+CC sm 2 sg 3 dm 12 dg 1048576
+CDC sm 2 sg 3 d ""
+GC m 12 g 2621441 n out i 1 o 1
+CC sm 12 sg 2621441 dm 3 dg 0
+CDC sm 12 sg 2621441 d ""
+GC m 12 g 1048577 n in i 1 o 0
+CC sm 3 sg 3 dm 12 dg 1048577
+CDC sm 3 sg 3 d ""
+GC m 12 g 2621442 n out i 2 o 1
+CC sm 12 sg 2621442 dm 4 dg 0
+CDC sm 12 sg 2621442 d ""
+GC m 12 g 1048578 n in i 2 o 0
+CC sm 4 sg 3 dm 12 dg 1048578
+CDC sm 4 sg 3 d ""
+GC m 12 g 2621443 n out i 3 o 1
+CC sm 12 sg 2621443 dm 5 dg 0
+CDC sm 12 sg 2621443 d ""
+GC m 12 g 1048579 n in i 3 o 0
+CC sm 5 sg 3 dm 12 dg 1048579
+CDC sm 5 sg 3 d ""
+GC m 12 g 2621444 n out i 4 o 1
+CC sm 12 sg 2621444 dm 6 dg 0
+CDC sm 12 sg 2621444 d ""
+GC m 12 g 1048580 n in i 4 o 0
+CC sm 6 sg 3 dm 12 dg 1048580
+CDC sm 6 sg 3 d ""
+GC m 12 g 2621445 n out i 5 o 1
+CC sm 12 sg 2621445 dm 7 dg 0
+CDC sm 12 sg 2621445 d ""
+GC m 12 g 1048581 n in i 5 o 0
+CC sm 7 sg 3 dm 12 dg 1048581
+CDC sm 7 sg 3 d ""
+GC m 12 g 2621446 n out i 6 o 1
+CC sm 12 sg 2621446 dm 8 dg 0
+CDC sm 12 sg 2621446 d ""
+GC m 12 g 1048582 n in i 6 o 0
+CC sm 8 sg 3 dm 12 dg 1048582
+CDC sm 8 sg 3 d ""
+GC m 12 g 2621447 n out i 7 o 1
+CC sm 12 sg 2621447 dm 9 dg 0
+CDC sm 12 sg 2621447 d ""
+GC m 12 g 1048583 n in i 7 o 0
+CC sm 9 sg 3 dm 12 dg 1048583
+CDC sm 9 sg 3 d ""
+GC m 12 g 2621448 n out i 8 o 1
+CC sm 12 sg 2621448 dm 10 dg 0
+CDC sm 12 sg 2621448 d ""
+GC m 12 g 1048584 n in i 8 o 0
+CC sm 10 sg 3 dm 12 dg 1048584
+CDC sm 10 sg 3 d ""
+GC m 12 g 2621449 n out i 9 o 1
+CC sm 12 sg 2621449 dm 11 dg 0
+CDC sm 12 sg 2621449 d ""
+GC m 12 g 1048585 n in i 9 o 0
+CC sm 11 sg 3 dm 12 dg 1048585
+CDC sm 11 sg 3 d ""
+CMB sm 1 tm 2 m initialize(0)
+CME
+CMB sm 1 tm 3 m initialize(0)
+CME
+CMB sm 1 tm 4 m initialize(0)
+CME
+CMB sm 1 tm 5 m initialize(0)
+CME
+CMB sm 1 tm 6 m initialize(0)
+CME
+CMB sm 1 tm 7 m initialize(0)
+CME
+CMB sm 1 tm 8 m initialize(0)
+CME
+CMB sm 1 tm 9 m initialize(0)
+CME
+CMB sm 1 tm 10 m initialize(0)
+CME
+CMB sm 1 tm 11 m initialize(0)
+CME
+CMB sm 1 tm 12 m initialize(0)
+CME
+
+SE e 0 c -1 m ""
